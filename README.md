@@ -1,7 +1,5 @@
 Hey! Thanks for yor time, it was really plesent to be able to learn from you and attend bootcamp. 
 
-My code is a trainwreck, with very few working components.
-
 What is working: Registration, Login, Comenting, display posts, Add posts, User infor, Info about uploaded posts.
 
 What should have worked but didn't: assign category to posts, title is asigned for category and i was searching why but couldn't
