@@ -16,7 +16,7 @@ class AddPost extends Component {
     this.setState({ [name]: value });
   };
 
-  onPick = event => {
+  onSelect = event => {
     const { name, value } = event.target;
     this.setState({ [name]: value });
   };
@@ -63,11 +63,11 @@ class AddPost extends Component {
         <div className='form-group'>
           <label htmlFor=''>Category</label>
           <select 
-            value={this.state.value}
+            
             name='category'
             type='text'
             className='form-control'
-            onPick={this.state.value}
+            onSelect={this.onSelect}
           >
             <option value="sport">Sport</option>
             <option value="supercar">Supercar</option>

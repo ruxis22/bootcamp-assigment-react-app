@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const addPost = ({ token }, { media, text }) => async dispatch => {
+const addPost = ({ token }, { media, text, category }) => async dispatch => {
   const formData = new FormData();
   formData.append("media", media);
 
